@@ -1,0 +1,13 @@
+<!Doctype html>
+<html>
+    <body>
+        <!--form을 사용하면 url로 값이 넘어가는 것을 볼 수 있다 // form은 넘기고 싶은 데이터를 url로 만들어준다.-->
+        <!-- ( ex : form.php?title=PHP ) -->
+        <!--url에 노출시키지 않고 은밀하게 전달하기 위해서는 method를 post로 전송 // post를 쓰지 않으면 기본값은 get-->
+        <form action="form.php" method="post">
+            <p><input type="text" name="title" placeholder="Title"></p>
+            <p><textarea name="description"></textarea></p>
+            <p><input type="submit"></p>
+        </form>
+    </body>
+</html>
